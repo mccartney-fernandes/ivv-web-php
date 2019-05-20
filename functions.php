@@ -23,9 +23,47 @@ function ivv_config(){
 	);
 
 	//cabeçalho customizados
-	add_theme_support('custom-header', ['height' => 225, 'width' => 1920]);
+	add_theme_support('custom-header', ['height' => 425, 'width' => 1920]);
 	//adicinar suporte a miniaturas
 	add_theme_support('post-thumbnails');
+	//post formats
+	add_theme_support('post-formats', ['gallery', 'audio', 'video', 'image']);
 }
 
 add_action('after_setup_theme', 'ivv_config', 0);
+
+// adicionar barras laterasi widgets
+
+add_action('widgets_init', 'ivv_sidebars');
+
+function ivv_sidebars(){
+	register_sidebar([
+		'name' => 'Titulo do texto na pagina home',
+		'id' => 'sidebar-1',
+		'description' => 'Titulo do texto que fica na pagina inicial do site',
+		'before_widget' => '<div class="text-center">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="">',
+		'after_title' => '</h2>'
+	]);
+
+	register_sidebar([
+		'name' => 'Botão pagina Home',
+		'id' => 'sidebar-2',
+		'description' => 'Botão da pagina home',
+		'before_widget' => '<div class="">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="">',
+		'after_title' => '</h2>'
+	]);
+
+	register_sidebar([
+		'name' => 'Imagem da Home',
+		'id' => 'sidebar-3',
+		'description' => 'Imagem da pagina Home',
+		'before_widget' => '<div class="">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="">',
+		'after_title' => '</h2>'
+	]);
+}

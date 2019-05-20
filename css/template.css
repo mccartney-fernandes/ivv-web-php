@@ -27,7 +27,12 @@ a:hover{
   border-bottom-color: rgba(255, 255, 255);
 }
 
-p{
+/*p{
+  font-family: 'Playfair Display', serif;
+}*/
+
+
+.page-template-general-template{
   font-family: 'Playfair Display', serif;
 }
 
@@ -72,13 +77,13 @@ body {
 }
 
 .dropdown-menu{
-  background: #7979796e;
+  background: #232323f5;
 }
 .dropdown-menu a{
   color:#fff;
 }
 .dropdown-menu a:focus{
-  background: #7979796e;
+  background: #232323f5;
 }
 
 .main-container{
@@ -94,16 +99,11 @@ body {
 
 }
 
-/*.main-container div p{
-  font-size: 10px;
-  
-}*/
-
 /*
  * Footer
  */
 .mastfoot {
-  background: #23232354;
+  background: #232323f5;
   margin-bottom: 5px;
   padding: 10px;
   border-radius: 20px;
@@ -122,7 +122,7 @@ body {
 
 /*Lideres*/
 .lideres-container{
-  background: #fffefe7d;
+  background: #232323f5;
   padding: 30px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -154,15 +154,41 @@ body {
   padding: 10px;
 }
 .generate-template-container{
-  background: #fffefe7d;
+  background: #232323f5;
   padding: 10px;
   margin-bottom: 5px;  
   border-radius: 10px;
 }
-.card-posts-text{
+.card-posts-text p{
   color: #000;
+}
+.card-posts-text h5{
+ color: #000;
+}
+.card-post-text-a a{
+  color: #000;
+}
+.card-post-text-a a:hover{
+  color: #00000073;
 }
 
 .content-posts{
   margin-top: 5px;
+}
+
+.card-image{
+  margin-bottom: 10px;
+}
+
+.card-image p{
+  color:#fff;
+}
+.card-image h2{
+  color:#fff;
+}
+.card-image a{
+  color:#fff;
+}
+.card-image a:hover{
+  color:#fff6;
 }

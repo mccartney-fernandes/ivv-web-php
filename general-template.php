@@ -20,8 +20,8 @@ Template Name: Template Uso Geral
             </div>
             <div class="container generate-template-container">
             	<div class="col-md-12">
-		         	<?php the_content(); ?>
-		        </div>
+  		         	<?php the_content(); ?>
+  		        </div>
             </div>
           <?php 
 
