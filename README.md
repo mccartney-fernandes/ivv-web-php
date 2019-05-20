@@ -13,13 +13,8 @@
 <a class="btn btn-block btn-outline-light" href="http://localhost/wordpress/a-igreja/no-que-cremos/">NO QUE CREMOS</a>
 
 ```
-	Estilo de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Boostrap 4.3</a>
-	de preferência utilizar a classe 
-
-
-	```
-		.btn-block
-	```
+Estilo de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Boostrap 4.3</a> de preferência utilizar a classe <small>.btn-block</small>
+	
 </p>
 <h5>Imagem da Home</h5>
 <p>Utilizar imagens com dimensões de 312x501</p>
