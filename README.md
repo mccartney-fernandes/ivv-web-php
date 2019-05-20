@@ -8,9 +8,11 @@
 <h5>Botão Pagina Home</h5>
 <p>
 	Utilizar o Widget HTML personalizado e inserir no conteudo.	<br>
-	```
-		<a class="btn btn-block btn-outline-light" href="http://localhost/wordpress/a-igreja/no-que-cremos/">NO QUE CREMOS</a>
-	```
+	
+```
+<a class="btn btn-block btn-outline-light" href="http://localhost/wordpress/a-igreja/no-que-cremos/">NO QUE CREMOS</a>
+
+```
 	Estilo de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Boostrap 4.3</a><br>
 	de preferência utilizar a classe 
 	```
