@@ -66,4 +66,14 @@ function ivv_sidebars(){
 		'before_title' => '<h2 class="">',
 		'after_title' => '</h2>'
 	]);
+
+	register_sidebar([
+		'name' => 'Imagem da Logo',
+		'id' => 'sidebar-4',
+		'description' => 'Imagem da Logo',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	]);
 }

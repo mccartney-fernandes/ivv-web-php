@@ -42,9 +42,9 @@
             </nav>
           </div>
           <div class="menu-principal container">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./imgs/marca_farol_branca.png" width="150" height="100" alt="">
-            </a>
+              <?php get_sidebar('imgLogo') ?>
+              <!-- <img src="./imgs/marca_farol_branca.png" width="150" height="100" alt=""> -->
+           
             <nav class="navbar navbar-expand-lg" >
               <button class="navbar-toggler nav-icon-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-grip-lines"></i><i class="fas fa-grip-lines"></i>
