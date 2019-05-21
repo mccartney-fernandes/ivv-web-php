@@ -19,7 +19,7 @@ function ivv_config(){
 		[
 			'menu_institucional' => 'MENU INSTITUCIONAL',
 			'menu_principal'	 => 'MENU PRINCIPAL'
-		],
+		]
 	);
 
 	//cabeçalho customizados
