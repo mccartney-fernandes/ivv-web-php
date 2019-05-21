@@ -6,7 +6,7 @@
           <a class="icon" href="#" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="align-self-center text-center">
-          Verbo da Vida - Santa Maria da Boa Vista - PE - <a href="http://178.128.147.242:3000" target="_blank">M.I.H.A Sistemas</a>, by <a href="https://github.com/mccartney-fernandes" target="_blank">@mccartney-fernandes</a>.
+          Verbo da Vida - Santa Maria da Boa Vista - PE - <a href="http://178.128.147.242" target="_blank">M.I.H.A Sistemas</a>, by <a href="https://github.com/mccartney-sena/themeivv.github.io" target="_blank">@mccartney-Sena</a>.
         </div>
       </footer>
 
