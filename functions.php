@@ -78,12 +78,57 @@ function ivv_sidebars(){
 	]);
 
 	register_sidebar([
-		'name' => 'Barra Lateral Posts',
+		'name' => 'Lider 1',
 		'id' => 'sidebar-5',
-		'description' => 'Titulo do texto que fica na pagina inicial do site',
-		'before_widget' => '<div class="text-center">',
+		'description' => 'Pastor Presidente',
+		'before_widget' => '<div class="lideres-img">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2 class="">',
-		'after_title' => '</h2>'
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 2',
+		'id' => 'sidebar-6',
+		'description' => 'Vice-presidente',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 3',
+		'id' => 'sidebar-7',
+		'description' => '1º Diretor Financeiro',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 4',
+		'id' => 'sidebar-8',
+		'description' => '2º Diretor Financeiro',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 5',
+		'id' => 'sidebar-9',
+		'description' => '1º Secretário Executivo',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 6',
+		'id' => 'sidebar-10',
+		'description' => '2º Secretario Executivo',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
 	]);
 }

@@ -26,17 +26,29 @@ a:hover{
   color: rgba(255, 255, 255);
   border-bottom-color: rgba(255, 255, 255);
 }
-
+hr{
+  background: #ccc; 
+  height:2px;
+}
 /*p{
   font-family: 'Playfair Display', serif;
 }*/
 
 /*The Events Calendar*/
 .tribe-events-gmap{
-  color:#1b379c;#1b379c8c
+  color:#1b379c;
 }
 .tribe-events-gmap:hover,.tribe-events-gmap:focus{
   color:#1b379c8c;
+}
+..tribe-events-schedule{
+  background: none !important;
+  border: none !important;
+  margin: none !important;
+  padding: none !important;
+}
+.tribe_events{
+  color:#000;
 }
 /*
  * Base structure
@@ -139,6 +151,16 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+.lideres-img img{
+  max-width: 140px !important;
+  max-height: 140px !important;
+  border-radius: 50%!important;
+  vertical-align: middle;
+  border: 3px solid #fff;
+}
+.lideres-img .textwidget{
+  text-align: center;
 }
 
 .card-departamento{

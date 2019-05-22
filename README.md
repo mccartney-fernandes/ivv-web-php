@@ -2,18 +2,27 @@
 
 <h2>Plugins Necessarios</h2>
 <ul>
-	<li>The Events Calendar</li>
+	<li>The Events Calendar 
+		<ul>
+			<li> Eventos  - Configurações - Exibir
+				<ul>
+					<li><b>CSS padrão para os templates</b> "Estilos Completos"</li>
+					<li><b>Template de eventos</b> "Template para Eventos"</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 	<li>FooGallery</li>
 	<li>FooBox Image Lightbox</li>
 </ul>
 
-<h2 style="text-align: center;">Widget</h2>
+<h2>Widget</h2>
 
-<h4 style="text-align: center;">Titulo do texto na pagina home</h4>
+<h4>Titulo do texto na pagina home</h4>
 <p>Utilizar o Widget Texto e digitar o titulo e o texto</p>
 <hr>
 
-<h4 style="text-align: center;">Botão Pagina Home</h4>
+<h4>Botão Pagina Home</h4>
 <p>
 Utilizar o Widget HTML personalizado e inserir no conteudo.
 
@@ -26,10 +35,10 @@ Estilo de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/
 </p>
 <hr>
 
-<h4 style="text-align: center;">Imagem da Home</h4>
-<p>Utilizar imagens com dimensões de 256x411</p>
+<h4>Imagem da Home</h4>
+<p>Utilizar imagens com dimensões de 256x411 ou 312x501</p>
 <hr>
-<h4 style="text-align: center;">Image Logo</h4>
+<h4>Image Logo</h4>
 <p>
 Utilizar o Widget HTML personalizado e inserir no conteudo.
 
