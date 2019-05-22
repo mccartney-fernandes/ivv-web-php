@@ -249,3 +249,46 @@ body {
 .single-posts{
   margin: 5px 0
 }
+
+.pagination .screen-reader-text{
+  display: none !important;
+}
+
+.pagination{
+  background: #fff !important;
+  margin-bottom: 5px;
+  padding: 5px;
+  color:#000;
+}
+
+.pagination a{  
+  color:#000;
+  padding: 0 5px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.pagination a:hover{  
+  color:#0000006e;
+}
+
+.pagination span{
+  padding: 0 5px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #0037ff;
+  font-weight: bold;
+}
+
+.comment-respond{
+}
+
+.icons-medium{
+  padding: 0; margin: 0;
+}
+
+.icons-medium li{
+  list-style: none;
+  display: inline;
+  margin: 0 5px 0;
+}

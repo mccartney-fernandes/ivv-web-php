@@ -1,5 +1,12 @@
 <h1>Tema WordPress Igreja Verbo da Vida Santa Maria da Boa Vista - PE</h1>
 
+<hr>
+
+<h2>Criação de Paginas</h2>
+<p>As paginas: ``` HOME, NOSSOS LIDERES, CONTATO ``` Devem esta com o modelo de pagina padrão, as demais com o template uso geral.</p>
+
+<hr>
+
 <h2>Plugins Necessarios</h2>
 <ul>
 	<li>The Events Calendar 
@@ -14,6 +21,7 @@
 	</li>
 	<li>FooGallery</li>
 	<li>FooBox Image Lightbox</li>
+	<li>Social Icons Widget</li>
 </ul>
 
 <h2>Widget</h2>
