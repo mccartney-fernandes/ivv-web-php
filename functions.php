@@ -27,7 +27,7 @@ function ivv_config(){
 	//adicinar suporte a miniaturas
 	add_theme_support('post-thumbnails');
 	//post formats
-	add_theme_support('post-formats', ['gallery', 'audio', 'video', 'image']);
+	add_theme_support('post-formats', ['gallery', 'audio', 'video', 'image', 'quote']);
 }
 
 add_action('after_setup_theme', 'ivv_config', 0);

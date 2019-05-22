@@ -88,6 +88,9 @@ body {
 .menu-principal{
   display: flex;
   justify-content: space-between;
+  background: #232323f5;
+  border-radius: 70px;
+  margin-top: 5px;
 }
 
 .dropdown-menu{
@@ -109,7 +112,7 @@ body {
   justify-content: center;
 }
 .main-img img{
-  height: 430px;;
+  height: 430px;
 
 }
 
@@ -189,6 +192,10 @@ body {
 }
 .card-posts-text h5{
  color: #000;
+}
+.card-post-text{
+  text-align: justify;
+  color: #000;
 }
 .card-post-text-a a{
   color: #000;
