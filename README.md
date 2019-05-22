@@ -1,5 +1,12 @@
 <h1>Tema WordPress Igreja Verbo da Vida Santa Maria da Boa Vista - PE</h1>
 
+<h2>Plugins Necessarios</h2>
+<ul>
+	<li>The Events Calendar</li>
+	<li>FooGallery</li>
+	<li>FooBox Image Lightbox</li>
+</ul>
+
 <h2 style="text-align: center;">Widget</h2>
 
 <h4 style="text-align: center;">Titulo do texto na pagina home</h4>
@@ -20,7 +27,7 @@ Estilo de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/
 <hr>
 
 <h4 style="text-align: center;">Imagem da Home</h4>
-<p>Utilizar imagens com dimensões de 312x501</p>
+<p>Utilizar imagens com dimensões de 256x411</p>
 <hr>
 <h4 style="text-align: center;">Image Logo</h4>
 <p>

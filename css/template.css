@@ -31,11 +31,13 @@ a:hover{
   font-family: 'Playfair Display', serif;
 }*/
 
-
-.page-template-general-template{
-  font-family: 'Playfair Display', serif;
+/*The Events Calendar*/
+.tribe-events-gmap{
+  color:#1b379c;#1b379c8c
 }
-
+.tribe-events-gmap:hover,.tribe-events-gmap:focus{
+  color:#1b379c8c;
+}
 /*
  * Base structure
  */
@@ -160,6 +162,7 @@ body {
   border-radius: 10px;
 }
 .card-posts-text p{
+  text-align: justify;
   color: #000;
 }
 .card-posts-text h5{
@@ -191,4 +194,29 @@ body {
 }
 .card-image a:hover{
   color:#fff6;
+}
+
+.card-image-heigth{
+  max-height: 350px;
+}
+
+.card-image-height{
+  min-height: 100%;
+}
+
+.card-video{
+  margin-bottom: 10px;
+  color:#000 !important;
+}
+
+.card-video a{
+  color:#000 !important;
+}
+
+.card-video a:hover{
+  color:#0000006e !important;
+}
+
+.single-posts{
+  margin: 5px 0
 }

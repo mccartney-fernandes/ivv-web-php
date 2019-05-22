@@ -42,7 +42,9 @@
             </nav>
           </div>
           <div class="menu-principal container">
-              <?php get_sidebar('imgLogo') ?>
+              <?php if(is_active_sidebar('sidebar-4')): ?>
+                <?php dynamic_sidebar('sidebar-4'); ?>
+              <?php endif; ?>
               <!-- <img src="./imgs/marca_farol_branca.png" width="150" height="100" alt=""> -->
            
             <nav class="navbar navbar-expand-lg" >

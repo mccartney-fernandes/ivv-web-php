@@ -76,4 +76,14 @@ function ivv_sidebars(){
 		'before_title' => '',
 		'after_title' => ''
 	]);
+
+	register_sidebar([
+		'name' => 'Barra Lateral Posts',
+		'id' => 'sidebar-5',
+		'description' => 'Titulo do texto que fica na pagina inicial do site',
+		'before_widget' => '<div class="text-center">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="">',
+		'after_title' => '</h2>'
+	]);
 }
