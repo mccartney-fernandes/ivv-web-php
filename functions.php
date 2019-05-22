@@ -135,7 +135,7 @@ function ivv_sidebars(){
 		'name' => 'Social Icons',
 		'id' => 'sidebar-11',
 		'description' => 'Social Icons',
-		'before_widget' => '<div class="align-self-center">',
+		'before_widget' => '<div class="align-self-center social-icons">',
 		'after_widget' => '</div>',
 		'before_title' => '<h2 class="text-center">',
 		'after_title' => '</h2>'
