@@ -16,7 +16,6 @@
           <p class="card-text"><?php the_excerpt(); ?></p>
           <a href="<?php the_permalink(); ?>" class="badge badge-pill badge-secondary post-continue">Continue Lendo ...</a>
           <p class="card-text card-post-text-a"><small class="text-muted">Categorias: <?php the_category(' '); ?></small></p>
-          <p class="card-text card-post-text-a"><small class="text-muted"><?php the_tags('Tags: ', ', ') ?></small></p>
         </div>
       </div>
     </div>

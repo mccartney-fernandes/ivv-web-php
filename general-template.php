@@ -7,7 +7,7 @@ Template Name: Template Uso Geral
 ?>
 
 <?php get_header(); ?>
-<img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height ?>" width="<?php  echo get_custom_header()->width ?>" alt="">
+<img class="img-fluid generate-template-img" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height ?>" width="<?php  echo get_custom_header()->width ?>" alt="">
 
   <main>
     

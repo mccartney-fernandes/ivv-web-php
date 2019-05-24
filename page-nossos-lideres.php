@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<img class="img-fluid generate-template-img" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height ?>" width="<?php  echo get_custom_header()->width ?>" alt="">
+
   <div class="container-fluid generate-template-container-fluid">
     <h3><?php the_title(); ?></h3>
   </div>

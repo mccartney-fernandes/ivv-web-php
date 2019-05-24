@@ -2,6 +2,12 @@
 // Register Custom Navigation Walker
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
+//limitar a funcao the_excerpt
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
 // inserindo scripts css js
 function load_scripts(){
 	wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', ['jquery'], '4.3.1', true);
@@ -27,7 +33,9 @@ function ivv_config(){
 	//adicinar suporte a miniaturas
 	add_theme_support('post-thumbnails');
 	//post formats
-	add_theme_support('post-formats', ['gallery', 'audio', 'video', 'image', 'quote']);
+	add_theme_support('post-formats', ['audio', 'video', 'image', 'quote']);
+	//title
+	add_theme_support('title-tag');
 }
 
 add_action('after_setup_theme', 'ivv_config', 0);

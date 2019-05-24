@@ -1,10 +1,9 @@
 <!doctype html>
-<html lang="pt-br">
+<html <?php language_attributes(); ?>>
   <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Verbo Santa Maria</title>  
-    
+        
     <!-- Icon FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     
