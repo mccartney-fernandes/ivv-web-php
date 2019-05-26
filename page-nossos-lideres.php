@@ -39,6 +39,16 @@
                 <?php dynamic_sidebar('sidebar-10'); ?>
               <?php endif; ?>
           </div>
+          <div class="col-lg-3 lideres-profile">
+            <?php if(is_active_sidebar('sidebar-12')): ?>
+                <?php dynamic_sidebar('sidebar-13'); ?>
+              <?php endif; ?>
+          </div>
+          <div class="col-lg-3 lideres-profile">
+            <?php if(is_active_sidebar('sidebar-13')): ?>
+                <?php dynamic_sidebar('sidebar-13'); ?>
+              <?php endif; ?>
+          </div>
         </div>
 
         

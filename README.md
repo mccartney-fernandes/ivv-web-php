@@ -3,9 +3,12 @@
 <hr>
 
 <h2>Criação de Paginas</h2>
-<p>As paginas: ``` HOME, NOSSOS LIDERES, CONTATO ``` Devem esta com o modelo de pagina padrão, as demais com o template uso geral.</p>
+<p>As paginas: ``` HOME(slug 'home'), NOSSOS LIDERES(slug 'nossos-lideres'), CONTATO(slug 'contato), FOTOS(slug 'fotos'), VIDEOS(slug 'videos'), AUDIOS(slug 'audios)``` Devem ser criadas e esta com o modelo de pagina padrão, as demais com o template uso geral, a pagina HOME deve ser ativa como pagina inicial do tema em Cofiguração - Leitura.</p>
 
 <hr>
+
+<h2>Categorias basicas necessarias</h2>
+<p>AUDIOS, FOTOS, VIDEOS, </p>
 
 <h2>Plugins Necessarios</h2>
 <ul>
@@ -26,10 +29,6 @@
 
 <h2>Widget</h2>
 
-<h4>Titulo do texto na pagina home</h4>
-<p>Utilizar o Widget Texto e digitar o titulo e o texto</p>
-<hr>
-
 <h4>Botão Pagina Home</h4>
 <p>
 Utilizar o Widget HTML personalizado e inserir no conteudo.
@@ -45,31 +44,21 @@ Estilos de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons
 
 <h4>Imagem da Home</h4>
 <p>Utilizar o Widget Imagen, as imagens devem ter dimensões de 256x411 ou 312x501</p>
-<hr>
-<h4>Image Logo</h4>
-<p>
-Utilizar o Widget HTML personalizado e inserir no conteudo.
-
-```
-<a href="link-da-pagina-desejada"><img src="link-da-imagem-desejada" width="150" height="100" alt=""></a></p>
-```
-
-Não esqueça de modificar o atributo ```href``` da <b>TAG</b> ```<a>``` para o link desejado e o atributo ``` src ``` da <b>TAG</b> ```<img> ``` para o link da imagem da Logo <br>
 
 <hr>
 
-<h4>Lider 1 a 6</h4>
+<h4>Lider 1 a 8</h4>
 <p>Utilizar o Widget Imagem e Texto</p>
 <p>Dimensões da imagem 150x150</p>
 <hr>
 
 <h2>Posts</h2>
-<p>Existem seis (06) formatos de posts, cada um deles tem sua propria característica</p>
+<p>Existem seis (05) formatos de posts, cada um deles tem sua propria característica</p>
 
 <h4>Padrão</h4>
 <p>Utilizado para Posts de Noticias</p>
-<h4>Galeria e Imagem</h4>
-<p>Utilizado para criar galerias de imagens e coloca uma unica imagem. O formato Galeria no conteúdo coloca-se um shortcode do plugin FooGallery, o Formato foto adiciona-se uma imagem na imagem destacada</p>
+<h4>Imagem</h4>
+<p>Utilizado para criar galerias de imagens. O formato Galeria no conteúdo coloca-se um shortcode do plugin FooGallery,</p>
 
 <h4>Áudio</h4>
 <p>Utilizado para posts de áudio. Incorpora-se o link do SoundCloud no conteúdo do post</p>

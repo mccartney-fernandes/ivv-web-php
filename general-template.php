@@ -11,26 +11,26 @@ Template Name: Template Uso Geral
 
   <main>
     
-          <?php 
-            if(have_posts()):
-              while(have_posts()): the_post(); 
-          ?>
-            <div class="container-fluid generate-template-container-fluid">
-            	<h3><?php the_title(); ?></h3>
-            </div>
-            <div class="container generate-template-container">
-            	<div class="col-md-12">
-  		         	<?php the_content(); ?>
-  		        </div>
-            </div>
-          <?php 
+      <?php 
+        if(have_posts()):
+          while(have_posts()): the_post(); 
+      ?>
+        <div class="container-fluid generate-template-container-fluid">
+        	<h3><?php the_title(); ?></h3>
+        </div>
+        <div class="container generate-template-container">
+        	<div class="col-md-12">
+	         	<?php the_content(); ?>
+	        </div>
+        </div>
+      <?php 
 
-              endwhile; 
-            else:
+          endwhile; 
+        else:
 
-          ?>
-            <p>nao ha postagem</p>
-        <?php endif; ?>        
+      ?>
+        <p>nao ha postagem</p>
+    <?php endif; ?>        
    
   </main>
       

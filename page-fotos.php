@@ -6,9 +6,9 @@
       <h3><?php the_title(); ?></h3>
     </div>
             
-    <div class="container generate-template-container content-fotos">
+    <div class="container-fluid generate-template-container content-fotos">
     	<div class="card bg-white text-dark card-image-fotos">
-       	<div class="row">        
+       	<div class="row d-flex justify-content-around">        
             <?php 
               $fotos = new WP_Query('post_type=post&posts_per_page=10&category_name=fotos');
 

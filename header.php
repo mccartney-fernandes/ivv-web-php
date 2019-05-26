@@ -41,10 +41,8 @@
             </nav>
           </div>
           <div class="menu-principal container">
-              <?php if(is_active_sidebar('sidebar-4')): ?>
-                <?php dynamic_sidebar('sidebar-4'); ?>
-              <?php endif; ?>
-              <!-- <img src="./imgs/marca_farol_branca.png" width="150" height="100" alt=""> -->
+                     
+              <?php the_custom_logo(); ?>
            
             <nav class="navbar navbar-expand-lg" >
               <button class="navbar-toggler nav-icon-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">

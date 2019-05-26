@@ -1,6 +1,14 @@
 <?php
+//Required Plugins
+require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/inc/required-plugins.php';
+
 // Register Custom Navigation Walker
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+//Carregar customizer.php
+require_once get_template_directory() . '/inc/customizer.php';
+
 
 //limitar a funcao the_excerpt
 function wpdocs_custom_excerpt_length( $length ) {
@@ -36,6 +44,12 @@ function ivv_config(){
 	add_theme_support('post-formats', ['audio', 'video', 'image', 'quote']);
 	//title
 	add_theme_support('title-tag');
+	//logo home
+	add_theme_support('custom-logo', array('height' => 110, 'width' => 140));
+	// habilitar suporte a traducao
+	// $textdomain = 'ivvsantamaria';
+	// load_theme_textdomain($textdomain, get_stylesheet_directory() . '/languages/');
+	// load_theme_textdomain($textdomain, get_template_directory() . '/languages/');
 }
 
 add_action('after_setup_theme', 'ivv_config', 0);
@@ -45,16 +59,6 @@ add_action('after_setup_theme', 'ivv_config', 0);
 add_action('widgets_init', 'ivv_sidebars');
 
 function ivv_sidebars(){
-	register_sidebar([
-		'name' => 'Titulo do texto na pagina home',
-		'id' => 'sidebar-1',
-		'description' => 'Titulo do texto que fica na pagina inicial do site',
-		'before_widget' => '<div class="text-center">',
-		'after_widget' => '</div>',
-		'before_title' => '<h2 class="">',
-		'after_title' => '</h2>'
-	]);
-
 	register_sidebar([
 		'name' => 'Botão pagina Home',
 		'id' => 'sidebar-2',
@@ -74,17 +78,6 @@ function ivv_sidebars(){
 		'before_title' => '<h2 class="">',
 		'after_title' => '</h2>'
 	]);
-
-	register_sidebar([
-		'name' => 'Imagem da Logo',
-		'id' => 'sidebar-4',
-		'description' => 'Imagem da Logo',
-		'before_widget' => '',
-		'after_widget' => '',
-		'before_title' => '',
-		'after_title' => ''
-	]);
-
 	register_sidebar([
 		'name' => 'Lider 1',
 		'id' => 'sidebar-5',
@@ -134,6 +127,24 @@ function ivv_sidebars(){
 		'name' => 'Lider 6',
 		'id' => 'sidebar-10',
 		'description' => '2º Secretario Executivo',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 7',
+		'id' => 'sidebar-12',
+		'description' => 'Outors Lideres',
+		'before_widget' => '<div class="lideres-img">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="text-center">',
+		'after_title' => '</h5>'
+	]);
+	register_sidebar([
+		'name' => 'Lider 8',
+		'id' => 'sidebar-13',
+		'description' => 'Outors Lideres',
 		'before_widget' => '<div class="lideres-img">',
 		'after_widget' => '</div>',
 		'before_title' => '<h5 class="text-center">',
