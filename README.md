@@ -1,70 +1,70 @@
-<h1>Tema WordPress Igreja Verbo da Vida Santa Maria da Boa Vista - PE</h1>
+## Tema WordPress Igreja Verbo da Vida Santa Maria da Boa Vista - PE  
+ Instale o tema e siga os passos relacionados a baixo.
 
-<hr>
+### 1º Crie as Paginas
+HOME`(slug 'home')`, NOSSOS LIDERES`(slug 'nossos-lideres')`, CONTATO`(slug 'contato)`, FOTOS`(slug 'fotos')`, VIDEOS`(slug 'videos')`, AUDIOS`(slug 'audios)`, estas paginas devem ser criadas como `modelo de pagina padrão`, as demais como `template uso geral`. A pagina  `HOME` deve ser ativa como pagina inicial do tema, var em `Cofiguração - Leitura`.
+  
+### 2º Categorias  
+Devem ser definidas 05 (cinco) categorias basicas necessarias
+`ÁUDIOS, FOTOS, VÍDEOS, MENSAGENS, MANÁ`
+  
+### Plugins
+por padrão o tema requer todos plugins necessarios para o seu bom funcionamento, instale todos e ative.  
+>Pode ocorrer mensagens de erros na instalação dos plugins, não se preocupe tudo vai funcionar perfeitamente.
+  
+### Widgets
+>Em `Aparência - Widgets` fica todos os widgets e áreas de widgets do tema. Abaixo esta relacionada todas as áreas de widgets e suas especificações.
+>Para utilizar os widgets arraste e solte na área especifica.  
 
-<h2>Criação de Paginas</h2>
-<p>As paginas: ``` HOME(slug 'home'), NOSSOS LIDERES(slug 'nossos-lideres'), CONTATO(slug 'contato), FOTOS(slug 'fotos'), VIDEOS(slug 'videos'), AUDIOS(slug 'audios)``` Devem ser criadas e esta com o modelo de pagina padrão, as demais com o template uso geral, a pagina HOME deve ser ativa como pagina inicial do tema em Cofiguração - Leitura.</p>
+##### Área - (Botão Pagina Home)  
+Utilizar o Widget `HTML personalizado`.  
 
-<hr>
+Insira o codigo abaixo dentro do contéudo do widget `HTML personalizado`
 
-<h2>Categorias basicas necessarias</h2>
-<p>AUDIOS, FOTOS, VIDEOS, </p>
+ `<a class="btn btn-block btn-outline-light" href="link-da-pagina-desejada"> NO QUE CREMOS </a>`
 
-<h2>Plugins Necessarios</h2>
-<ul>
-	<li>The Events Calendar 
-		<ul>
-			<li> Eventos  - Configurações - Exibir
-				<ul>
-					<li><b>CSS padrão para os templates</b> "Estilos Completos"</li>
-					<li><b>Template de eventos</b> "Template para Eventos"</li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>FooGallery</li>
-	<li>FooBox Image Lightbox</li>
-	<li>Social Icons Widget</li>
-</ul>
+>Não esqueça de modificar o atributo `href` para o link desejado e o texo `NO QUE CREMOS` em um texto da sua preferência.
+>Para mudar o estilos(cor, tamanho, formato ...) do botões acesse o site do [Boostrap 4.3](https://getbootstrap.com/docs/4.3/components/buttons/)
+   de preferência utilizar a classe `btn-block`.  
 
-<h2>Widget</h2>
+##### Área - (Imagem da Home)  
+Utilizar o Widget `Imagem`.  
+  
+Deixar o Titulo do widget `Imagem` em branco.  
 
-<h4>Botão Pagina Home</h4>
-<p>
-Utilizar o Widget HTML personalizado e inserir no conteudo.
+>Para um melhor enquadramento da imagem na pagina inicial, as imagem devem ter dimensões de `256x411 ou 312x501` podendo ser editada essas dimensões após a imagem ser inserida, clicando no botão `Editar imagem` na seção `MOSTRAR CONFIGURAÇÕES - Tamanho` selecione `Tamanho personalizado`.  
 
-```<a class="btn btn-block btn-outline-light" href="link-da-pagina-desejada">NO QUE CREMOS</a>```
+##### Área - (Lider 1 a 8)  
+Utilizar o Widget `Imagem` e `Texto`, o widget `Imagem` deve esta sempre acima do widget `Texto`.  
+  
+Deixar o Titulo do widget `Imagem` em branco e no widget `Texto` preencher somente o Titulo.
 
+>A Área Lider 1 e 2 são reservadas para o Presidente e o Vice-Presidente.   
 
-Não esqueça de modificar o atributo ``` href ``` para o link desejado e o texo ```NO QUE CREMOS``` <br> 
-Estilos de botões <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Boostrap 4.3</a> de preferência utilizar a classe <small>.btn-block</small>
-	
-</p>
-<hr>
+Para uma melhor visualização das imagens suas dimensões devem ser 150x150, podendo ser editada essas dimensões após a imagem ser inserida, clicando no botão `Editar imagem` na seção `MOSTRAR CONFIGURAÇÕES - Tamanho` selecione `Tamanho personalizado`.
 
-<h4>Imagem da Home</h4>
-<p>Utilizar o Widget Imagen, as imagens devem ter dimensões de 256x411 ou 312x501</p>
+##### Área - (Social Icons)  
+Utilizar o Wdget `Social Icons`, coloque os links das redes sociais nas suas respectivas áreas dentro do widget.  
 
-<hr>
+### Posts  
+>Existem cinco (05) formatos de posts, cada um deles tem suas proprias características, sempre adicionar `imagem destacada` para a visualização da listagem dos posts fica bonito.
 
-<h4>Lider 1 a 8</h4>
-<p>Utilizar o Widget Imagem e Texto</p>
-<p>Dimensões da imagem 150x150</p>
-<hr>
+##### Formato Padrão  
+Utilizado na criação de Posts relacionado a notícias.    
+>É de boa prática adicionar um post de NOTÍCIAS OU MENSAGENS, e marcar a Categoria `NOTÍCIAS, MENSAGENS`.  
 
-<h2>Posts</h2>
-<p>Existem seis (05) formatos de posts, cada um deles tem sua propria característica</p>
+##### Formato Imagem  
+Utilizado na criação de galerias de imagens. O formato Imagem coloca-se no conteúdo um `shortcode` que é gerado quando criamos uma galeria no plugin `FooGallery`.  
+>É de boa prática adicionar um post de IMAGEM e marcar a Categoria `FOTOS`.  
 
-<h4>Padrão</h4>
-<p>Utilizado para Posts de Noticias</p>
-<h4>Imagem</h4>
-<p>Utilizado para criar galerias de imagens. O formato Galeria no conteúdo coloca-se um shortcode do plugin FooGallery,</p>
+##### Formato Áudio  
+Utilizado na criação de posts de áudio. Incorpora-se o link do SoundCloud ou adiciona um audio interno clicando no botão `Adicionar mídia`.  
+>É de boa prática adicionar um post de ÁUDIO e marcar a Categoria `ÁUDIOS`.  
 
-<h4>Áudio</h4>
-<p>Utilizado para posts de áudio. Incorpora-se o link do SoundCloud no conteúdo do post</p>
+##### Formato Vídeo  
+Utilizado na criação de posts de vídeos. `Clicando em Adicionar mídia - Inserir a partir do URL - copia-se o link do video do YouTube/Vmeo - Inserir no post`.  
+>É de boa prática adicionar um post de VÍDEOS e marcar a Categoria `VÍDEOS`.  
 
-<h4>Vídeo</h4>
-<p>Utilizado para posts de vídeos. Clicando em Adicionar mídia - Inserir a partir do URL - copia-se o link do video do YouTube - Inserir no post</p>
-
-<h4>Citação</h4>
-<p>Utilizado para posts curtos sem imagens, Ex: Maná, Devocional ..</p>
+##### Formato Citação  
+Utilizado para posts curtos sem imagens, Ex: Maná, Devocional...  
+>É de boa prática adicionar um post de CITAÇÃO e marcar a Categoria `MANÁ, DEVOCIONAL...`.  

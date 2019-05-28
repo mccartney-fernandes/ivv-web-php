@@ -7,7 +7,7 @@
 		  <div class="card-body">
 		  	<blockquote class="blockquote">
 			  <p class="mb-0"><?php the_content(); ?></p>
-			  <footer class="blockquote-footer card-post-text-a">Autor: <?php the_author_posts_link(); ?>
+			  <footer class="blockquote-footer card-post-text-a">
 			  	<small class="text-muted">Categorias: <?php the_category(' '); ?></small> <small class="text-muted"><?php the_tags('Tags: ', ', ') ?></small>
 			  </footer>
 			</blockquote>

@@ -10,7 +10,7 @@
       <div class="col-md-8">
         <div class="card-body card-posts-text">        
           <h5 class="card-title"><?php the_title(); ?></h5>
-          <p class="card-text card-post-text-a"><small class="text-muted">Publicado: <?php echo get_the_date(); ?>, Autor: <?php the_author_posts_link(); ?></small></p>
+          <p class="card-text card-post-text-a"><small class="text-muted">Publicado: <?php echo get_the_date(); ?></small></p>
           <p class="card-text"><?php the_content(); ?>
             <small class="text-muted card-post-text-a">Categorias: <?php the_category(' '); ?></small> 
             <small class="text-muted card-post-text-a"><?php the_tags('Tags: ', ', ') ?></small>

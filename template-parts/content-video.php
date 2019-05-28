@@ -4,6 +4,6 @@
 	  <div class="embed-responsive embed-responsive-21by9">
 	  	<spam class="text-center"><?php the_content(); ?></spam>
 	  </div>
-  		<p class="card-text text-center"><small class="text-muted">Publicado: <?php echo get_the_date(); ?>, Autor: <?php the_author_posts_link(); ?> Categorias:  <?php the_category(' '); ?></small>, <small class="text-muted"><?php the_tags('Tags: ', ', ') ?></small></p>
+  		<p class="card-text text-center"><small class="text-muted">Publicado: <?php echo get_the_date(); ?>, Categorias:  <?php the_category(' '); ?></small>, <small class="text-muted"><?php the_tags('Tags: ', ', ') ?></small></p>
 	</div>
 </div>
