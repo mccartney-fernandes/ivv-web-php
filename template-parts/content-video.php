@@ -1,5 +1,5 @@
 <div class="col-lg-8 offset-lg-2 mt-2">
-	<div class="card text-white card-video">
+	<div class="card text-dark card-video">
 	  <h2 class="text-center"><?php the_title(); ?></h2>  
 	  <div class="embed-responsive embed-responsive-21by9">
 	  	<spam class="text-center"><?php the_content(); ?></spam>

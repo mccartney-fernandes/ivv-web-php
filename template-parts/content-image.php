@@ -1,5 +1,5 @@
 <div class="container mt-2">
-	<div class="card bg-dark text-white card-image col-12 p-3">
+	<div class="card text-dark card-image col-12 p-3">
 	  <h2 class="text-center"><?php the_title(); ?></h2>
 	  <p class="text-center">
 	  	Publicado: <?php echo get_the_date(); ?>, <?php the_tags('Tags: ', ', ') ?> 	

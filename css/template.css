@@ -253,17 +253,8 @@ body {
   margin-bottom: 10px;
 }
 
-.card-image p{
-  color:#fff;
-}
-.card-image h2{
-  color:#fff;
-}
-.card-image a{
-  color:#fff;
-}
 .card-image a:hover{
-  color:#fff6;
+  color:#0006;
 }
 
 .card-image-fotos, .card-image-fotos p, .card-image-fotos a{
