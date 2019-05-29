@@ -40,7 +40,7 @@ hr{
 }*/
 
 /*The Events Calendar*/
-.tribe-events-gmap{
+/*.tribe-events-gmap{
   color:#1b379c;
 }
 .tribe-events-gmap:hover,.tribe-events-gmap:focus{
@@ -52,7 +52,7 @@ hr{
   margin: none !important;
   padding: none !important;
 }
-/*.tribe_events{
+.tribe_events{
   color:#000;
 }
 .tribe-event-date-start{
@@ -157,7 +157,7 @@ body {
 
 /*Lideres*/
 .lideres-container{
-  background: #232323f5;
+  background: #0000000a;
   padding: 30px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -207,7 +207,6 @@ body {
   padding: 10px;
 }
 .generate-template-container{
-  background: #232323f5;
   padding: 10px;
   margin-bottom: 5px;  
   border-radius: 10px;
