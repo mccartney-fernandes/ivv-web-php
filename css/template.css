@@ -200,17 +200,14 @@ body {
 
 .generate-template-container-fluid{
   margin-top: 5px;
-  background: #ffffffe0;
 }
 .generate-template-container-fluid h3{
   color: #000;
   padding: 10px;
 }
 .generate-template-container{
-  background: #232323f5;
   padding: 10px;
   margin-bottom: 5px;  
-  border-radius: 10px;
 }
 .generate-template-img{
   margin-top: 5px;
