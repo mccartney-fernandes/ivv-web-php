@@ -10,7 +10,7 @@
 /* Links */
 a,
 a:focus{
-  color: #fff;
+  color: #000;
 }
 a:hover{
   text-decoration: none;
@@ -65,13 +65,13 @@ hr{
 html,
 body {
   height: 100%;
-  background: #000;
-  color:#fff;
+  background: #ffffff;
+  color:#000;
 }
 
-.nav-icon-toggle{
+/*.nav-icon-toggle{
   background: #fff;box-shadow: -1px 0px 8px 5px #1342f1;
-}
+}*/
 
 .menu-institucional{
   display: flex;
@@ -83,6 +83,9 @@ body {
 .menu-institucional nav div ul li{
   align-self: space-around;
 }
+#menu-menu-institucional li a{color: #00549d;}
+#menu-menu-institucional li a:hover{color: #00549d73;}
+#menu-menu-institucional li a:focus{color: #00549d73;}
 /*Menu institucional aparece para dispositivos larges*/
 @media (max-width: 992px) {
   .menu-institucional{
@@ -99,19 +102,18 @@ body {
 .menu-principal{
   display: flex;
   justify-content: space-between;
-  background: #232323f5;
-  border-radius: 70px;
   margin-top: 5px;
 }
+.menu-principal-faixa{background: #00549d;}
 
 .dropdown-menu{
-  background: #232323f5;
+  background: #00549d;
 }
 .dropdown-menu a{
   color:#fff;
 }
 .dropdown-menu a:focus{
-  background: #232323f5;
+  background: #00549d;
 }
 
 .main-container{
@@ -139,12 +141,12 @@ body {
   background: #232323f5;
   margin-bottom: 5px;
   padding: 10px;
-  border-radius: 20px;
   color: rgba(255, 255, 255, 0.64);  
 }
 .mastfoot div a i{
   margin-right: 10px;
 }
+.mastfoot div a{color:#ffff;}
 .mastfoot div a:hover{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.64);

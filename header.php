@@ -40,27 +40,28 @@
               </div>
             </nav>
           </div>
-          <div class="menu-principal container">
-                     
+          <div class="menu-principal-faixa container-fluid">
+            <div class="container menu-principal">       
               <?php the_custom_logo(); ?>
            
-            <nav class="navbar navbar-expand-lg" >
-              <button class="navbar-toggler nav-icon-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-grip-lines"></i><i class="fas fa-grip-lines"></i>
-              </button>
-                <?php wp_nav_menu( [
-                                      'theme_location'  => 'menu_principal',
-                                      'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                                      'container'       => 'div',
-                                      'container_class' => 'collapse navbar-collapse',
-                                      'container_id'    => 'bs-example-navbar-collapse-1',
-                                      'menu_class'      => 'navbar-nav mr-auto',
-                                      'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                                      'walker'          => new WP_Bootstrap_Navwalker(),
-                                  ]
-                                );
-                ?>
-            </nav>
+              <nav class="navbar navbar-expand-lg" >
+                <button class="navbar-toggler nav-icon-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-grip-lines"></i><i class="fas fa-grip-lines"></i>
+                </button>
+                  <?php wp_nav_menu( [
+                                        'theme_location'  => 'menu_principal',
+                                        'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                                        'container'       => 'div',
+                                        'container_class' => 'collapse navbar-collapse',
+                                        'container_id'    => 'bs-example-navbar-collapse-1',
+                                        'menu_class'      => 'navbar-nav mr-auto',
+                                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                                        'walker'          => new WP_Bootstrap_Navwalker(),
+                                    ]
+                                  );
+                  ?>
+              </nav>
+            </div>  
           </div>
         </div>
       </header>
