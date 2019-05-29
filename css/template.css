@@ -102,7 +102,6 @@ body {
 .menu-principal{
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
 }
 .menu-principal-faixa{background: #00549d;}
 
@@ -199,7 +198,6 @@ body {
 }
 
 .generate-template-container-fluid{
-  margin-top: 5px;
   background: #2b2b2b;
 }
 .generate-template-container-fluid h3{
@@ -210,9 +208,6 @@ body {
   padding: 10px;
   margin-bottom: 5px;  
   border-radius: 10px;
-}
-.generate-template-img{
-  margin-top: 5px;
 }
 .card-posts-text p{
   text-align: justify;
