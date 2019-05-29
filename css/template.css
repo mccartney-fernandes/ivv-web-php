@@ -67,11 +67,13 @@ body {
   height: 100%;
   background: #ffffff;
   color:#000;
-}
 
-/*.nav-icon-toggle{
-  background: #fff;box-shadow: -1px 0px 8px 5px #1342f1;
-}*/
+}
+html{overflow-x: hidden;}
+
+.nav-icon-toggle{
+  background: #fff;border: 1px solid #000;
+}
 
 .menu-institucional{
   display: flex;
@@ -321,7 +323,11 @@ body {
   font-weight: bold;
 }
 
+/*comentarios*/
 .comment-respond{
+}
+.comment-form{
+
 }
 
 .social-icons ul{

@@ -9,7 +9,12 @@
 			    get_template_part('template-parts/content', 'video');
 			}else{
 				 get_template_part('template-parts/content', 'posts');
-			}		
+			}
+
+			//verificando se ha comentarios no posts
+			if(comments_open() || get_comments_number()):
+				comments_template();
+			endif;		
 			
 		endwhile;
 	?>	      
