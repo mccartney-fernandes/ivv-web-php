@@ -13,7 +13,19 @@
 
 			//verificando se ha comentarios no posts
 			if(comments_open() || get_comments_number()):
+			
+			?>
+
+			<div class="p-3 mb-2 p-2 container">
+			
+			<?php	
 				comments_template();
+			?>
+
+			</div>
+
+			<?php
+
 			endif;		
 			
 		endwhile;
